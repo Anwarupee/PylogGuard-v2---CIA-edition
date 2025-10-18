@@ -1,0 +1,101 @@
+10/15-17:57:48.052972  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+10/15-21:19:37.082179  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+10/15-21:19:37.087663  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+10/15-21:19:37.742566  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ffa6:6d02
+10/15-21:19:38.062395  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+10/15-22:55:28.711973  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ff6f:23ae
+10/15-23:50:11.967374  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+10/15-23:50:11.968356  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IGMP} 0.0.0.0 -> 224.0.0.22
+10/15-23:50:12.022395  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+10/16-09:07:33.955187  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::16
+10/18-12:00:11.406578  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ff6f:23ae
+10/18-14:19:17.762183  [**] [1:1000008:1] [PyLogGuard] Telnet Connection Detected - Insecure Protocol [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:23
+10/18-14:19:17.762207  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:995
+10/18-14:19:17.762232  [**] [1:1000009:1] [PyLogGuard] FTP Connection Detected - Plaintext Credentials [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:21
+10/18-14:19:17.766443  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:645
+10/18-14:19:17.769983  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:138
+10/18-14:19:17.771654  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:748
+10/18-14:19:17.772880  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:399
+10/18-14:19:17.775740  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:250
+10/18-14:19:17.781860  [**] [1:1000007:1] [PyLogGuard] Possible SYN Flood [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:557
+10/18-14:19:17.783294  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:847
+10/18-14:19:17.785800  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:175
+10/18-14:19:17.787067  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:51
+10/18-14:19:17.788119  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:99
+10/18-14:19:17.789257  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:574
+10/18-14:19:17.790544  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:93
+10/18-14:19:17.792694  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:924
+10/18-14:19:17.794614  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:189
+10/18-14:19:17.797369  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:68
+10/18-14:19:17.798630  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:426
+10/18-14:19:17.801887  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:491
+10/18-14:19:17.803238  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:169
+10/18-14:19:17.805313  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:47
+10/18-14:19:17.807404  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:380
+10/18-14:19:17.809429  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:227
+10/18-14:19:17.811815  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:471
+10/18-14:19:17.814571  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:634
+10/18-14:19:17.819645  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:78
+10/18-14:19:17.821055  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:40
+10/18-14:19:17.823096  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:998
+10/18-14:19:17.826126  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:788
+10/18-14:19:17.827867  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:14
+10/18-14:19:17.829519  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:273
+10/18-14:19:17.831734  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:489
+10/18-14:19:17.833324  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:291
+10/18-14:19:17.835482  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:331
+10/18-14:19:17.836317  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:468
+10/18-14:19:17.837637  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:567
+10/18-14:19:17.838516  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:318
+10/18-14:19:17.839206  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:897
+10/18-14:19:17.840278  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:280
+10/18-14:19:17.841029  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:546
+10/18-14:19:17.841734  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:71
+10/18-14:19:17.842779  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:43
+10/18-14:19:17.843394  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:409
+10/18-14:19:17.843985  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:202
+10/18-14:19:17.844909  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:475
+10/18-14:19:17.845822  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:107
+10/18-14:19:17.846863  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:732
+10/18-14:19:17.847585  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:56
+10/18-14:19:17.848759  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:427
+10/18-14:19:17.849539  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:144
+10/18-14:19:17.850515  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:103
+10/18-14:19:17.851247  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:813
+10/18-14:19:17.852235  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:583
+10/18-14:19:17.852912  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:17
+10/18-14:19:17.853691  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:547
+10/18-14:19:17.854534  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:952
+10/18-14:19:17.855386  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:868
+10/18-14:19:17.856144  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:662
+10/18-14:19:17.857123  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:721
+10/18-14:19:17.857742  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:821
+10/18-14:19:17.858470  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:504
+10/18-14:19:17.859610  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:844
+10/18-14:19:17.860073  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:582
+10/18-14:19:17.860756  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:79
+10/18-14:19:17.862341  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:319
+10/18-14:19:17.863389  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:207
+10/18-14:19:17.864062  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:190
+10/18-14:19:17.864842  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36797 -> 192.168.56.10:989
+10/18-14:19:26.785166  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:34088 -> 192.168.56.10:22
+10/18-14:19:27.295598  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:34138 -> 192.168.56.10:22
+10/18-14:20:19.911494  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:49322 -> 192.168.56.10:22
+10/18-14:21:18.209720  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:58446 -> 192.168.56.10:22
+10/18-14:21:32.821375  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:38904 -> 192.168.56.10:22
+10/18-14:22:20.972423  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:49440 -> 192.168.56.10:22
+10/18-14:23:22.218219  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:33342 -> 192.168.56.10:22
+10/18-14:23:32.372000  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:36832 -> 192.168.56.10:22
+10/18-14:24:21.955633  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:47810 -> 192.168.56.10:22
+10/18-14:25:20.308438  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:50544 -> 192.168.56.10:22
+10/18-14:25:34.849070  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:50080 -> 192.168.56.10:22
+10/18-14:26:22.997292  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:42880 -> 192.168.56.10:22
+10/18-14:27:21.384218  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:43292 -> 192.168.56.10:22
+10/18-14:27:41.689950  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:33668 -> 192.168.56.10:22
+10/18-14:36:23.649828  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:34990 -> 192.168.56.10:22
+10/18-14:38:49.266846  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:35058 -> 192.168.56.10:22
+10/18-14:40:54.877828  [**] [1:1000001:1] [PyLogGuard] SSH Brute Force Detected [**] [Priority: 0] {TCP} 192.168.56.2:47182 -> 192.168.56.10:22
+10/18-14:41:14.159362  [**] [1:1000002:1] [PyLogGuard] ICMP Flood Detected [**] [Priority: 0] {ICMP} 192.168.56.20 -> 192.168.56.10
+10/18-14:41:14.159539  [**] [1:1000002:1] [PyLogGuard] ICMP Flood Detected [**] [Priority: 0] {ICMP} 192.168.56.10 -> 192.168.56.20
+10/18-14:41:25.295493  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:1362 -> 192.168.56.10:80
+10/18-14:41:40.302731  [**] [1:1000003:1] [PyLogGuard] Possible Port Scan [**] [Priority: 0] {TCP} 192.168.56.2:1377 -> 192.168.56.10:80

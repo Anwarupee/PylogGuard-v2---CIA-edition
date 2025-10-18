@@ -1,0 +1,13 @@
+
+[2025/10/08 10:30:45] smbd_audit: john|192.168.1.100|ok|connect|public_docs
+[2025/10/08 10:30:46] smbd_audit: attacker|192.168.1.101|fail|connect|admin_share
+[2025/10/08 10:30:47] smbd_audit: attacker|192.168.1.101|fail|connect|admin_share
+[2025/10/08 10:30:48] smbd_audit: attacker|192.168.1.101|fail|connect|admin_share
+[2025/10/08 10:30:49] smbd_audit: attacker|192.168.1.101|fail|connect|admin_share
+[2025/10/08 10:30:50] smbd_audit: attacker|192.168.1.101|fail|connect|admin_share
+[2025/10/08 10:30:51] smbd_audit: cfo|192.168.1.102|ok|open|Q4_financial_report.xlsx
+[2025/10/08 10:30:52] smbd_audit: hr_manager|192.168.1.103|ok|connect|hr_confidential
+[2025/10/08 10:30:53] smbd_audit: backup_user|192.168.1.104|ok|open|database_backup.sql
+[2025/10/08 10:30:54] smbd_audit: malicious|192.168.1.105|ok|unlink|important_file.docx
+[2025/10/08 10:30:55] smbd_audit: admin|192.168.1.106|ok|write|config.ini
+[2025/10/08 10:30:56] smbd_audit: user|192.168.1.107|timeout|connect|remote_share

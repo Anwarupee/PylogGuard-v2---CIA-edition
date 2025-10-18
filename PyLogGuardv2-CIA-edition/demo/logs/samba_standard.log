@@ -1,0 +1,9 @@
+
+2025/10/08 10:30:45  smbd[12345]: john@192.168.1.100 logged in to share [public]
+2025/10/08 10:30:46  smbd[12346]: FAILED login for attacker from 192.168.1.101
+2025/10/08 10:30:47  smbd[12347]: FAILED login for attacker from 192.168.1.101
+2025/10/08 10:30:48  smbd[12348]: FAILED login for attacker from 192.168.1.101
+2025/10/08 10:30:49  smbd[12349]: FAILED login for attacker from 192.168.1.101
+2025/10/08 10:30:50  smbd[12350]: cfo@192.168.1.102 opened file salary_data.xlsx
+2025/10/08 10:30:51  smbd[12351]: admin@192.168.1.103 logged in to share [finance]
+2025/10/08 10:30:52  smbd[12352]: backup@192.168.1.104 opened file company_db.bak

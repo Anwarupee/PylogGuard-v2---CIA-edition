@@ -1,0 +1,11 @@
+1760583017.149      0 ::1 TCP_MEM_HIT/200 902 GET http://example.com/ - HIER_NONE/- text/html
+1760583017.155      0 ::1 TCP_MEM_HIT/301 924 GET http://google.com/ - HIER_NONE/- text/html
+1760583017.163      0 ::1 TCP_MEM_HIT/200 902 GET http://example.com/ - HIER_NONE/- text/html
+1760583017.171      0 ::1 TCP_MEM_HIT/301 924 GET http://google.com/ - HIER_NONE/- text/html
+1760583017.180      0 ::1 TCP_MEM_HIT/200 902 GET http://example.com/ - HIER_NONE/- text/html
+1760583017.189      0 ::1 TCP_MEM_HIT/301 924 GET http://google.com/ - HIER_NONE/- text/html
+1760583017.196      0 ::1 TCP_MEM_HIT/200 902 GET http://example.com/ - HIER_NONE/- text/html
+1760583017.204      0 ::1 TCP_MEM_HIT/301 924 GET http://google.com/ - HIER_NONE/- text/html
+1760583018.155    942 ::1 TCP_MISS/404 1018 GET http://example.com/login.php? - HIER_DIRECT/23.215.0.136 text/html
+1760583018.777    602 ::1 TCP_MISS/404 1018 GET http://example.com/search? - HIER_DIRECT/23.215.0.136 text/html
+1760773267.134     46 192.168.56.2 TCP_MISS_ABORTED/503 4238 GET http://example.com/search? - HIER_NONE/- text/html

@@ -1,0 +1,9 @@
+
+1728388245.123 245 192.168.1.100 TCP_MISS/200 1234 GET http://example.com/index.html
+1728388246.456 156 192.168.1.101 TCP_MISS/401 512 GET http://internal.company.com/admin/users.php
+1728388247.789 12034 192.168.1.102 TCP_MISS/200 8945632 POST http://external.site/upload.php
+1728388248.012 89 192.168.1.103 TCP_MISS/403 256 GET http://intranet.local/config/database.xml
+1728388249.345 523 192.168.1.104 TCP_MISS/200 2048 GET http://malicious.com/login.php?password=admin123
+1728388250.678 45 192.168.1.105 TCP_MISS/503 128 GET http://service.company.com/api/data
+1728388251.901 8923 192.168.1.106 TCP_MISS/200 4567890 PUT http://cloud.storage.com/backup/.env
+1728388252.234 167 192.168.1.107 TCP_MISS/200 3456 GET http://example.com/search?q=<script>alert(1)</script>

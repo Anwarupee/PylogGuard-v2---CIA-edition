@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+  # Loki - Log aggregation system
+  loki:
+    image: grafana/loki:2.9.0
+    container_name: pylogguard-loki
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./dashboard/loki/loki-config.yaml:/etc/loki/local-config.yaml
+      - loki-data:/loki
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - pylogguard-network
+    restart: unless-stopped
+
+  # Grafana - Visualization platform
+  grafana:
+    image: grafana/grafana:10.1.0
+    container_name: pylogguard-grafana
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=PyLogGuard2024!
+      - GF_USERS_ALLOW_SIGN_UP=false
+      - GF_SERVER_ROOT_URL=http://localhost:3001
+      - GF_INSTALL_PLUGINS=grafana-piechart-panel,grafana-worldmap-panel
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./dashboard/grafana/provisioning:/etc/grafana/provisioning
+      - ./dashboard/grafana/dashboards:/var/lib/grafana/dashboards
+    networks:
+      - pylogguard-network
+    depends_on:
+      - loki
+    restart: unless-stopped
+
+volumes:
+  loki-data:
+    driver: local
+  grafana-data:
+    driver: local
+
+networks:
+  pylogguard-network:
+    driver: bridge

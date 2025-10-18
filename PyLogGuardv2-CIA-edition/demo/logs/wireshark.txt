@@ -1,0 +1,60 @@
+    1 0.000000000    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=2/512, ttl=64
+    2 0.000062452    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=2/512, ttl=64 (request in 1)
+    3 1.062849393    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=3/768, ttl=64
+    4 1.062903529    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=3/768, ttl=64 (request in 3)
+    5 2.086626160    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=4/1024, ttl=64
+    6 2.086664144    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=4/1024, ttl=64 (request in 5)
+    7 3.110369503    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=5/1280, ttl=64
+    8 3.110399503    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=5/1280, ttl=64 (request in 7)
+    9 4.134584375    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=6/1536, ttl=64
+   10 4.134612827    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=6/1536, ttl=64 (request in 9)
+   11 5.159334234    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=7/1792, ttl=64
+   12 5.159367375    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=7/1792, ttl=64 (request in 11)
+   13 6.182403569    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=8/2048, ttl=64
+   14 6.182424377    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=8/2048, ttl=64 (request in 13)
+   15 7.206556450    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=9/2304, ttl=64
+   16 7.206595880    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=9/2304, ttl=64 (request in 15)
+   17 8.230448642    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=10/2560, ttl=64
+   18 8.230485906    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=10/2560, ttl=64 (request in 17)
+   19 9.255208369    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=11/2816, ttl=64
+   20 9.255227558    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=11/2816, ttl=64 (request in 19)
+   21 10.278471959    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=12/3072, ttl=64
+   22 10.278514060    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=12/3072, ttl=64 (request in 21)
+   23 10.278637355          ::1 → ::1          UDP 62 34359 → 45135 Len=0
+   24 11.303311825    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=13/3328, ttl=64
+   25 11.303353790    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=13/3328, ttl=64 (request in 24)
+   26 12.326243895    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=14/3584, ttl=64
+   27 12.326265382    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=14/3584, ttl=64 (request in 26)
+   28 13.350776564    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=15/3840, ttl=64
+   29 13.350823952    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=15/3840, ttl=64 (request in 28)
+   30 14.374443629    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=16/4096, ttl=64
+   31 14.374475602    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=16/4096, ttl=64 (request in 30)
+   32 15.398524456    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=17/4352, ttl=64
+   33 15.398569392    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=17/4352, ttl=64 (request in 32)
+   34 16.422609817    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=18/4608, ttl=64
+   35 16.422639776    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=18/4608, ttl=64 (request in 34)
+   36 17.447249450    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=19/4864, ttl=64
+   37 17.447276480    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=19/4864, ttl=64 (request in 36)
+   38 18.470318520    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=20/5120, ttl=64
+   39 18.470345670    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=20/5120, ttl=64 (request in 38)
+   40 19.494342264    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=21/5376, ttl=64
+   41 19.494385204    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=21/5376, ttl=64 (request in 40)
+   42 20.518478201    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=22/5632, ttl=64
+   43 20.518515961    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=22/5632, ttl=64 (request in 42)
+   44 20.518633580          ::1 → ::1          UDP 62 34359 → 45135 Len=0
+   45 21.542272587    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=23/5888, ttl=64
+   46 21.542341959    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=23/5888, ttl=64 (request in 45)
+   47 22.566591100    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=24/6144, ttl=64
+   48 22.566631376    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=24/6144, ttl=64 (request in 47)
+   49 23.590534651    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=25/6400, ttl=64
+   50 23.590565039    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=25/6400, ttl=64 (request in 49)
+   51 24.614556240    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=26/6656, ttl=64
+   52 24.614599660    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=26/6656, ttl=64 (request in 51)
+   53 25.638308816    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=27/6912, ttl=64
+   54 25.638339553    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=27/6912, ttl=64 (request in 53)
+   55 26.662428154    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=28/7168, ttl=64
+   56 26.662459524    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=28/7168, ttl=64 (request in 55)
+   57 27.686526068    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=29/7424, ttl=64
+   58 27.686614874    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=29/7424, ttl=64 (request in 57)
+   59 28.710268063    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) request  id=0x2275, seq=30/7680, ttl=64
+   60 28.710291340    127.0.0.1 → 127.0.0.1    ICMP 98 Echo (ping) reply    id=0x2275, seq=30/7680, ttl=64 (request in 59)

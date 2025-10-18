@@ -1,0 +1,291 @@
+{
+  "dashboard": {
+    "title": "CIA Triad Overview",
+    "tags": ["pylogguard", "cia", "security"],
+    "timezone": "browser",
+    "schemaVersion": 38,
+    "version": 1,
+    "refresh": "30s",
+    "panels": [
+      {
+        "id": 1,
+        "title": "CIA Category Distribution",
+        "type": "piechart",
+        "gridPos": { "x": 0, "y": 0, "w": 8, "h": 8 },
+        "targets": [
+          {
+            "expr": "sum by(cia_category) (count_over_time({source=~\".+\"} [24h]))",
+            "legendFormat": "{{cia_category}}",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "legend": {
+            "displayMode": "table",
+            "placement": "right",
+            "values": ["value", "percent"]
+          },
+          "pieType": "donut",
+          "displayLabels": ["name", "percent"]
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "hideFrom": {
+                "tooltip": false,
+                "viz": false,
+                "legend": false
+              }
+            },
+            "mappings": [],
+            "unit": "short"
+          },
+          "overrides": [
+            {
+              "matcher": { "id": "byName", "options": "Confidentiality" },
+              "properties": [{ "id": "color", "value": { "fixedColor": "red", "mode": "fixed" } }]
+            },
+            {
+              "matcher": { "id": "byName", "options": "Integrity" },
+              "properties": [{ "id": "color", "value": { "fixedColor": "yellow", "mode": "fixed" } }]
+            },
+            {
+              "matcher": { "id": "byName", "options": "Availability" },
+              "properties": [{ "id": "color", "value": { "fixedColor": "blue", "mode": "fixed" } }]
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "title": "Total Events (24h)",
+        "type": "stat",
+        "gridPos": { "x": 8, "y": 0, "w": 4, "h": 4 },
+        "targets": [
+          {
+            "expr": "sum(count_over_time({source=~\".+\"} [24h]))",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "graphMode": "area",
+          "colorMode": "value",
+          "justifyMode": "auto",
+          "textMode": "auto",
+          "orientation": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"]
+          }
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": { "mode": "thresholds" },
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": null, "color": "green" },
+                { "value": 50, "color": "yellow" },
+                { "value": 100, "color": "red" }
+              ]
+            },
+            "unit": "short"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "High Severity Alerts",
+        "type": "stat",
+        "gridPos": { "x": 12, "y": 0, "w": 4, "h": 4 },
+        "targets": [
+          {
+            "expr": "sum(count_over_time({severity=\"High\"} [24h]))",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "graphMode": "area",
+          "colorMode": "value",
+          "textMode": "auto",
+          "reduceOptions": {
+            "values": false,
+            "calcs": ["lastNotNull"]
+          }
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": { "mode": "thresholds" },
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": null, "color": "green" },
+                { "value": 5, "color": "orange" },
+                { "value": 10, "color": "red" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "Unique Attack Sources",
+        "type": "stat",
+        "gridPos": { "x": 16, "y": 0, "w": 4, "h": 4 },
+        "targets": [
+          {
+            "expr": "count(count by(source_ip) (count_over_time({source=~\".+\"} [24h])))",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "graphMode": "area",
+          "colorMode": "value",
+          "textMode": "auto"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": { "mode": "palette-classic" }
+          }
+        }
+      },
+      {
+        "id": 5,
+        "title": "Severity Distribution",
+        "type": "bargauge",
+        "gridPos": { "x": 8, "y": 4, "w": 12, "h": 4 },
+        "targets": [
+          {
+            "expr": "sum by(severity) (count_over_time({source=~\".+\"} [24h]))",
+            "legendFormat": "{{severity}}",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "orientation": "horizontal",
+          "displayMode": "gradient",
+          "showUnfilled": true
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": { "mode": "palette-classic" },
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                { "value": null, "color": "green" },
+                { "value": 10, "color": "yellow" },
+                { "value": 20, "color": "red" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 6,
+        "title": "Events Timeline (by CIA Category)",
+        "type": "timeseries",
+        "gridPos": { "x": 0, "y": 8, "w": 20, "h": 8 },
+        "targets": [
+          {
+            "expr": "sum by(cia_category) (rate({source=~\".+\"} [5m]))",
+            "legendFormat": "{{cia_category}}",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "legend": {
+            "displayMode": "list",
+            "placement": "bottom",
+            "showLegend": true
+          },
+          "tooltip": {
+            "mode": "multi"
+          }
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": { "mode": "palette-classic" },
+            "custom": {
+              "lineWidth": 2,
+              "fillOpacity": 10,
+              "drawStyle": "line",
+              "lineInterpolation": "smooth",
+              "spanNulls": false,
+              "showPoints": "auto",
+              "pointSize": 5,
+              "stacking": {
+                "mode": "none",
+                "group": "A"
+              }
+            }
+          },
+          "overrides": [
+            {
+              "matcher": { "id": "byName", "options": "Confidentiality" },
+              "properties": [{ "id": "color", "value": { "fixedColor": "red", "mode": "fixed" } }]
+            },
+            {
+              "matcher": { "id": "byName", "options": "Integrity" },
+              "properties": [{ "id": "color", "value": { "fixedColor": "yellow", "mode": "fixed" } }]
+            },
+            {
+              "matcher": { "id": "byName", "options": "Availability" },
+              "properties": [{ "id": "color", "value": { "fixedColor": "blue", "mode": "fixed" } }]
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "title": "Recent High-Severity Events",
+        "type": "logs",
+        "gridPos": { "x": 0, "y": 16, "w": 20, "h": 8 },
+        "targets": [
+          {
+            "expr": "{severity=\"High\"}",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "showTime": true,
+          "showLabels": true,
+          "showCommonLabels": false,
+          "wrapLogMessage": true,
+          "prettifyLogMessage": true,
+          "enableLogDetails": true,
+          "sortOrder": "Descending"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Events by Source",
+        "type": "barchart",
+        "gridPos": { "x": 20, "y": 0, "w": 4, "h": 8 },
+        "targets": [
+          {
+            "expr": "sum by(source) (count_over_time({source=~\".+\"} [24h]))",
+            "legendFormat": "{{source}}",
+            "refId": "A"
+          }
+        ],
+        "options": {
+          "orientation": "horizontal",
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0,
+          "showValue": "auto",
+          "legend": {
+            "displayMode": "hidden"
+          }
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": { "mode": "palette-classic" }
+          }
+        }
+      }
+    ]
+  }
+}
