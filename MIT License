@@ -1,0 +1,81 @@
+MIT License
+
+Copyright (c) 2025 PyLogGuard Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+This project uses the following open-source software:
+
+### Grafana
+- License: Apache License 2.0
+- Website: https://grafana.com
+- Copyright: Grafana Labs
+
+### Loki
+- License: Apache License 2.0
+- Website: https://grafana.com/oss/loki/
+- Copyright: Grafana Labs
+
+### MySQL
+- License: GPL v2 (with FOSS exception) / Commercial
+- Website: https://www.mysql.com
+- Copyright: Oracle Corporation
+
+### Snort
+- License: GPL v2
+- Website: https://www.snort.org
+- Copyright: Cisco Systems, Inc.
+
+### Squid
+- License: GPL v2+
+- Website: http://www.squid-cache.org
+- Copyright: Squid Software Foundation
+
+### Python and Python Packages
+- Various licenses (MIT, BSD, Apache 2.0)
+- See requirements.txt for package details
+- Licenses available in respective package repositories
+
+---
+
+## Attribution
+
+If you use this software in your research, please cite:
+
+```
+PyLogGuard v2 - CIA Edition
+Security Log Analysis and Visualization Platform
+https://github.com/yourusername/PyLogGuardv2-CIA-edition
+```
+
+---
+
+## Disclaimer
+
+This software is provided for educational and security research purposes.
+Users are responsible for ensuring compliance with all applicable laws and
+regulations when using this software. The authors and contributors are not
+responsible for any misuse or damage caused by this software.
+
+Always obtain proper authorization before conducting security testing or
+log analysis on systems you do not own or have explicit permission to test.
