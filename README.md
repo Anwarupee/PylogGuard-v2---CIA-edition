@@ -16,7 +16,6 @@ A sophisticated log management system that ingests, analyzes, and visualizes sec
 ### Core Capabilities
 - 📊 **Multi-Source Log Ingestion**: Snort IDS, Squid Proxy, Syslog, Samba, Wireshark
 - 🎯 **CIA Triad Classification**: Automatic categorization of security events
-- 🚨 **Real-time Alerting**: Bruteforce detection, high-severity spikes, pattern correlation
 - 📈 **Advanced Visualization**: Grafana dashboards with Loki integration
 - 🔍 **Attack Pattern Detection**: Automatic correlation of related security events
 - 🗄️ **Scalable Storage**: MySQL database with optimized indexes
@@ -34,7 +33,7 @@ A sophisticated log management system that ingests, analyzes, and visualizes sec
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                     Log Sources                              │
-│  Snort IDS │ Squid Proxy │ Syslog │ Samba │ Wireshark      │
+│  Snort IDS │ Squid Proxy │ Syslog │ Wireshark               │
 └─────────────────┬───────────────────────────────────────────┘
                   │
                   ▼
@@ -131,8 +130,8 @@ python core/loki_shipper.py --use-env --mode incremental --hours 24
 
 ```bash
 # Open Grafana (default: http://localhost:3001)
-# Username: admin
-# Password: admin
+# Username: yourpassword
+# Password: yourpassword
 
 # Navigate to Dashboards → PyLogGuard CIA Security Dashboard
 ```
@@ -148,7 +147,6 @@ PyLogGuardv2-CIA-edition/
 │   │   ├── snort_parser.py
 │   │   ├── proxy_parser.py
 │   │   ├── syslog_parser.py
-│   │   ├── samba_parser.py
 │   │   └── wireshark_parser.py
 │   ├── loki_shipper.py    # Loki integration
 │   ├── schema.sql         # Database schema
@@ -162,8 +160,6 @@ PyLogGuardv2-CIA-edition/
 │   └── logs/              # Sample log files
 ├── ingest_logs.py         # Main ingestion script
 ├── docker-compose.yml     # Docker services
-├── requirements.txt       # Python dependencies
-├── .env.example           # Environment template
 └── README.md
 ```
 
@@ -186,12 +182,7 @@ PyLogGuardv2-CIA-edition/
 - **Events**: Authentication failures, bruteforce attempts, successful logins
 - **CIA Impact**: Confidentiality and Availability
 
-### 4. Samba File Sharing
-- **Format**: Samba audit logs
-- **Events**: File access, modifications, deletions, permission changes
-- **CIA Impact**: Integrity and Confidentiality
-
-### 5. Wireshark (PCAP)
+### 4. Wireshark (PCAP)
 - **Format**: Packet capture summaries
 - **Events**: Network traffic analysis, attack patterns, protocol anomalies
 - **CIA Impact**: All three categories
@@ -280,7 +271,6 @@ limits_config:
 | `bruteforce_detected` | 5+ auth failures from same IP | High |
 | `proxy_high_severity_spike` | 5+ high-severity proxy events | High |
 | `syslog_high_severity_spike` | 10+ high-severity syslog events | High |
-| `samba_high_severity_spike` | 5+ high-severity file events | High |
 | `dos_attack_detected` | 100+ packets in 10 seconds | Critical |
 
 ---
@@ -402,10 +392,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Project Maintainer**: Your Name  
-**Email**: your.email@example.com  
-**GitHub**: [@yourusername](https://github.com/yourusername)  
-**LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
+**Project Maintainer**: Muhammad Yanuar Andrianto Putra  
+**Email**: muhammadyanuar141@gmail.com  
+**GitHub**: [@Anwarupee](https://github.com/Anwarupee)  
+**LinkedIn**: [Muhammad Yanuar Andrianto Putra](https://www.linkedin.com/in/muhammad-yanuar-andrianto-putra)
 
 ---
 
@@ -422,11 +412,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📚 Documentation
 
-For detailed documentation, visit:
-- [Installation Guide](docs/installation.md)
-- [Configuration Guide](docs/configuration.md)
-- [API Reference](docs/api.md)
-- [Parser Development](docs/parsers.md)
+detailed documentation will soon be added
 
 ---
 
